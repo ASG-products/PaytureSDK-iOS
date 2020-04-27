@@ -2,7 +2,7 @@
 
 A library for payments via Payture for iOS devices 
 
-![Version](https://img.shields.io/cocoapods/v/PaytureSDK.svg?style=flat)](https://cocoapods.org/pods/PaytureSDK)
+[![Version](https://img.shields.io/cocoapods/v/PaytureSDK.svg?style=flat)](https://cocoapods.org/pods/PaytureSDK)
 [![License](https://img.shields.io/cocoapods/l/PaytureSDK.svg?style=flat)](https://cocoapods.org/pods/PaytureSDK)
 [![Platform](https://img.shields.io/cocoapods/p/PaytureSDK.svg?style=flat)](https://cocoapods.org/pods/PaytureSDK)
 
