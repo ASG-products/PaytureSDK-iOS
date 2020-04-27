@@ -3,7 +3,7 @@
 A library for payments via Payture for iOS devices 
 
 [![Version](https://img.shields.io/cocoapods/v/PaytureSDK.svg?style=flat)](https://cocoapods.org/pods/PaytureSDK)
-[![License](https://img.shields.io/cocoapods/l/PaytureSDK.svg?style=flat)](https://github.com/ASG-products/PaytureSDK-iOS/blob/master/LICENSE)
+[![License](https://img.shields.io/cocoapods/l/PaytureSDK.svg?style=flat)](https://raw.githubusercontent.com/ASG-products/PaytureSDK-iOS/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/PaytureSDK.svg?style=flat)](https://cocoapods.org/pods/PaytureSDK)
 
 
@@ -61,4 +61,4 @@ Ilya Fedorov, ilya.fedorov@antares-software.ru
 
 ## License
 
-PaytureSDK is available under the MIT license. See the LICENSE file for more info.
+PaytureSDK is available under the MIT license. See the [LICENSE](https://raw.githubusercontent.com/ASG-products/PaytureSDK-iOS/master/LICENSE) file for more info.
