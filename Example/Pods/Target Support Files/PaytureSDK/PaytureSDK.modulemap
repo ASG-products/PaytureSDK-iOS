@@ -1,0 +1,6 @@
+framework module PaytureSDK {
+  umbrella header "PaytureSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

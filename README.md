@@ -1,15 +1,12 @@
 # PaytureSDK
 
+A library for payments via Payture for iOS devices 
+
 [![CI Status](https://img.shields.io/travis/Ilya Fedorov/PaytureSDK.svg?style=flat)](https://travis-ci.org/Ilya Fedorov/PaytureSDK)
 [![Version](https://img.shields.io/cocoapods/v/PaytureSDK.svg?style=flat)](https://cocoapods.org/pods/PaytureSDK)
 [![License](https://img.shields.io/cocoapods/l/PaytureSDK.svg?style=flat)](https://cocoapods.org/pods/PaytureSDK)
 [![Platform](https://img.shields.io/cocoapods/p/PaytureSDK.svg?style=flat)](https://cocoapods.org/pods/PaytureSDK)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -19,6 +16,45 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'PaytureSDK'
 ```
+
+Add header file:
+
+```
+#import <PaytureSDK/PaytureSDK.h>
+``` 
+
+## Usage
+
+### Initialization
+
+```
+[PaytureApi.sharedInstance initializeWithEnvironment:@"ENVIRONMENT"];
+[PaytureApi.sharedInstance setUserWithLogin:@"USER@EMAIL.com" userPassword:@"USER_PASSWORD" userPhoneNumber:nil userEmail:nil forTerminal:@"TERMINAL_FROM_PAYTURE"];
+``` 
+
+### Make a payment
+
+```
+[PaytureApi.sharedInstance eWalletPayWithOrderId:[NSUUID UUID].UUIDString productName:@"A pie" amount:8900 cheque:nil];
+``` 
+
+### Cheque
+
+For more details about cheque you may see at [Payture API](https://payture.com/api/#kassy-fz54_cheque-format-with-payment_)
+
+A simple cheque usage:
+
+```
+PaytureChequePositionObject *chequePosition = [[PaytureChequePositionObject alloc] initWithQuantity:1.0 price:89.00 tax:PaytureTaxTypeNDSEqual20Percents text:@"A pie"];
+PaytureChequeObject *cheque = [[PaytureChequeObject alloc] initWithPositions:@[chequePosition] customerContact:@"CUSTOMER@EMAIL.COM"];
+
+[PaytureApi.sharedInstance eWalletPayWithOrderId:[NSUUID UUID].UUIDString productName:@"A pie" amount:8900 cheque:[cheque base64Cheque]];
+``` 
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 
 ## Author
 
