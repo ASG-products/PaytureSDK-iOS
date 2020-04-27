@@ -7,6 +7,13 @@ A library for payments via Payture for iOS devices
 [![Platform](https://img.shields.io/cocoapods/p/PaytureSDK.svg?style=flat)](https://cocoapods.org/pods/PaytureSDK)
 
 
+## Preview
+
+### iPhone
+
+<p align="center"><img src="https://github.com/ASG-products/PaytureSDK-iOS/blob/master/Demo/iPhone_capture.gif" width="214"/></p>
+
+
 ## Installation
 
 PaytureSDK is available through [CocoaPods](https://cocoapods.org). To install
