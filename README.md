@@ -61,11 +61,6 @@ PaytureChequeObject *cheque = [[PaytureChequeObject alloc] initWithPositions:@[c
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-
-## Author
-
-Ilya Fedorov, ilya.fedorov@antares-software.ru
-
 ## License
 
 PaytureSDK is available under the MIT license. See the [LICENSE](https://raw.githubusercontent.com/ASG-products/PaytureSDK-iOS/master/LICENSE) file for more info.
