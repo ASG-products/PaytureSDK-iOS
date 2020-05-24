@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		fqTEhaJX32QN/I2SNDQNyk+RCuQ=
+		mn+K7lPQ4pcj6jr3EwZNGqWisgE=
 		</data>
 		<key>Base.lproj/Localizable.strings</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/PaytureApi.h</key>
 		<data>
-		lXRZmplBoUXADlBHpWkIplR6b3Y=
+		bEDYQPG9fiFgJQjv6KL8b2ldfTI=
 		</data>
 		<key>Headers/PaytureChequeObject.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pQnWvPhOP0wO+nhVBga5I7eBItY=
+		FxRrdNkcHu6tq1oPRzwbpRciizY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>PayturePayViewController.nib/objects-11.0+.nib</key>
 		<data>
-		8NDnGoTWJybEXdKAjtbjMlodgQI=
+		3EHgb1QJRg0KDhCp4AQ3xv0kAtU=
 		</data>
 		<key>PayturePayViewController.nib/runtime.nib</key>
 		<data>
-		5XUlSpa7k+OiN4GUmEn7d9wT6LU=
+		1Dk4dNzXYkvLP/E5UNzqy66DwKU=
 		</data>
 		<key>ru.lproj/Localizable.strings</key>
 		<dict>
@@ -124,11 +124,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fqTEhaJX32QN/I2SNDQNyk+RCuQ=
+			mn+K7lPQ4pcj6jr3EwZNGqWisgE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z2i7aLFYq6KmFLd7ru50/LPJ3iZy53WQb5ASP7yEzzU=
+			fyagrOOGUbY7RZ6iWl+/Prgbk6llZeet19cK7lAdips=
 			</data>
 		</dict>
 		<key>Base.lproj/Localizable.strings</key>
@@ -146,11 +146,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lXRZmplBoUXADlBHpWkIplR6b3Y=
+			bEDYQPG9fiFgJQjv6KL8b2ldfTI=
 			</data>
 			<key>hash2</key>
 			<data>
-			CFo9qM/XpXm4AEQ0KrRmMpaBkSzmRNzDCLmIYk3TEGQ=
+			cGnz2pGacQd+fNRgCIpVUNLUBoG8D0Ypdp29GeAnzPY=
 			</data>
 		</dict>
 		<key>Headers/PaytureChequeObject.h</key>
@@ -377,22 +377,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8NDnGoTWJybEXdKAjtbjMlodgQI=
+			3EHgb1QJRg0KDhCp4AQ3xv0kAtU=
 			</data>
 			<key>hash2</key>
 			<data>
-			62bTS1GPCwqaEBgcnpEKobojB+FRIOUh8acNySMBd0M=
+			vjff5M3JDZfY/rZKkK9uzgkx8isroMwcX2bqRUPpbZQ=
 			</data>
 		</dict>
 		<key>PayturePayViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5XUlSpa7k+OiN4GUmEn7d9wT6LU=
+			1Dk4dNzXYkvLP/E5UNzqy66DwKU=
 			</data>
 			<key>hash2</key>
 			<data>
-			scItyRW1K8Zs1L99x8H8z0/+bAufA5fhUjcXAwosOOU=
+			81lNIty8tURAp9c88bS84Vh+lPEtf6mk/TlNMlwqoBM=
 			</data>
 		</dict>
 		<key>ru.lproj/Localizable.strings</key>

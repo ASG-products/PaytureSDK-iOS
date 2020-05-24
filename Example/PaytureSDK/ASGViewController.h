@@ -6,8 +6,10 @@
 //  Copyright (c) 2020 Ilya Fedorov. All rights reserved.
 //
 
+#import <PaytureSDK/PaytureSDK.h>
+
 @import UIKit;
 
-@interface ASGViewController : UIViewController
+@interface ASGViewController : UIViewController <PaytureApiDelegate>
 
 @end

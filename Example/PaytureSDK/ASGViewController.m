@@ -7,7 +7,6 @@
 //
 
 #import "ASGViewController.h"
-#import <PaytureSDK/PaytureSDK.h>
 
 @interface ASGViewController ()
 
@@ -20,6 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 
+    PaytureApi.sharedInstance.delegate = self;
     [PaytureApi.sharedInstance initializeWithEnvironment:@"ENVIRONMENT"];
     [PaytureApi.sharedInstance setUserWithLogin:@"USER@EMAIL.com" userPassword:@"USER_PASSWORD" userPhoneNumber:nil userEmail:nil forTerminal:@"TERMINAL_FROM_PAYTURE"];
 }
@@ -39,6 +39,13 @@
 //    PaytureChequeObject *cheque = [[PaytureChequeObject alloc] initWithPositions:@[chequePosition] customerContact:@"CUSTOMER@EMAIL.COM"];
 //    [PaytureApi.sharedInstance eWalletPayWithOrderId:[NSUUID UUID].UUIDString productName:@"A pie" amount:8900 cheque:[cheque base64Cheque]];
 
+}
+
+#pragma mark - PaytureApiDelegate
+
+-(void)payturePaymentCompleted:(NSString *)orderId
+{
+    //  add your code here
 }
 
 @end

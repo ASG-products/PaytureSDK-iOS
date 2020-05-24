@@ -44,6 +44,7 @@ import PaytureSDK
 ##### Objective-C
 
 ```
+PaytureApi.sharedInstance.delegate = self;
 [PaytureApi.sharedInstance initializeWithEnvironment:@"ENVIRONMENT"];
 [PaytureApi.sharedInstance setUserWithLogin:@"USER@EMAIL.com" userPassword:@"USER_PASSWORD" userPhoneNumber:nil userEmail:nil forTerminal:@"TERMINAL_FROM_PAYTURE"];
 ``` 
@@ -51,6 +52,7 @@ import PaytureSDK
 ##### Swift
 
 ```
+PaytureApi.sharedInstance().delegate = self;
 PaytureApi.sharedInstance().initialize(withEnvironment: "ENVIRONMENT")
 PaytureApi.sharedInstance().setUserWithLogin("USER@EMAIL.com", userPassword: "USER_PASSWORD", userPhoneNumber: nil, userEmail: nil, forTerminal: "TERMINAL_FROM_PAYTURE")
 ``` 
@@ -68,6 +70,12 @@ PaytureApi.sharedInstance().setUserWithLogin("USER@EMAIL.com", userPassword: "US
 ```
 PaytureApi.sharedInstance().eWalletPay(withOrderId: UUID().uuidString, productName: "A pie", amount: 8900, cheque: nil)
 ``` 
+
+### PaytureApiDelegate
+
+##### payturePaymentCompleted:(NSString *)orderId
+
+Payture payment as completed successfully
 
 ### Cheque
 

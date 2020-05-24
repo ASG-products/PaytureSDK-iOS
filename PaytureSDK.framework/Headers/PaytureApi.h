@@ -12,11 +12,27 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
+ Delegate for payments results feedback
+ */
+@protocol PaytureApiDelegate <NSObject>
+
+/**
+ Payment worderId is completed successfully
+ */
+-(void)payturePaymentCompleted:(NSString*)orderId;
+
+@optional
+
+@end
+
+/**
  Class for work with Payture API
  
  You must input a few parameters from Payture support for correct work
  */
 @interface PaytureApi : NSObject
+
+@property (nullable, nonatomic, weak)   id<PaytureApiDelegate> delegate;
 
 /**
  Initialize API
