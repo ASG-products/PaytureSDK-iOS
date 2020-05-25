@@ -119,7 +119,7 @@
 		6182124B306663ECA01BD1DE99EE7EC0 /* Pods-PaytureSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaytureSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		645D08F932A61EE80D67AFED9E34A08A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		64DFB7409552AB6B019E5C5D24C67B8E /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		65DFC585247ABDA700EFBBF0 /* PaytureSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PaytureSDK.framework; sourceTree = "<group>"; };
+		65DFC587247C027E00EFBBF0 /* PaytureSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PaytureSDK.framework; sourceTree = "<group>"; };
 		6BCF606C873AB22B5D2EDE83A06AAB13 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		6E80A615FAD9883DD60EC6BAE8D34C6A /* Pods-PaytureSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaytureSDK_Example.modulemap"; sourceTree = "<group>"; };
 		7243D01622AEE39DDAD86751B7B8B25E /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -213,7 +213,7 @@
 		35313420729B411A89CE35ECA3BAB8D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				65DFC585247ABDA700EFBBF0 /* PaytureSDK.framework */,
+				65DFC587247C027E00EFBBF0 /* PaytureSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

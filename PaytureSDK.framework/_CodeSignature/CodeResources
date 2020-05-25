@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		mn+K7lPQ4pcj6jr3EwZNGqWisgE=
+		aNo9OtvO7xKPn6Fm0Odl4Q0DycY=
 		</data>
 		<key>Base.lproj/Localizable.strings</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>PayturePayViewController.nib/objects-11.0+.nib</key>
 		<data>
-		3EHgb1QJRg0KDhCp4AQ3xv0kAtU=
+		W1zWVs4iGt5EvDbh/Tp6hrIIrTU=
 		</data>
 		<key>PayturePayViewController.nib/runtime.nib</key>
 		<data>
-		1Dk4dNzXYkvLP/E5UNzqy66DwKU=
+		zgzpXJwBd8MQvq5moerdVdMfzOM=
 		</data>
 		<key>ru.lproj/Localizable.strings</key>
 		<dict>
@@ -124,11 +124,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mn+K7lPQ4pcj6jr3EwZNGqWisgE=
+			aNo9OtvO7xKPn6Fm0Odl4Q0DycY=
 			</data>
 			<key>hash2</key>
 			<data>
-			fyagrOOGUbY7RZ6iWl+/Prgbk6llZeet19cK7lAdips=
+			woxmiTIzJapAu+AlMw5Vxj/Sf6ynZBpRxCwHeqMaMcA=
 			</data>
 		</dict>
 		<key>Base.lproj/Localizable.strings</key>
@@ -377,22 +377,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3EHgb1QJRg0KDhCp4AQ3xv0kAtU=
+			W1zWVs4iGt5EvDbh/Tp6hrIIrTU=
 			</data>
 			<key>hash2</key>
 			<data>
-			vjff5M3JDZfY/rZKkK9uzgkx8isroMwcX2bqRUPpbZQ=
+			DwNT77OQ2+zScJZhZIAyebmVS1pwAVor2AgENi7R8bI=
 			</data>
 		</dict>
 		<key>PayturePayViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1Dk4dNzXYkvLP/E5UNzqy66DwKU=
+			zgzpXJwBd8MQvq5moerdVdMfzOM=
 			</data>
 			<key>hash2</key>
 			<data>
-			81lNIty8tURAp9c88bS84Vh+lPEtf6mk/TlNMlwqoBM=
+			sbhO/qAfMwlHyuwuNSpH3AdEwYEKpRZFObVyhNc/GMg=
 			</data>
 		</dict>
 		<key>ru.lproj/Localizable.strings</key>
