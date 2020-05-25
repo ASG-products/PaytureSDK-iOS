@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PaytureSDK'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'Library for work with Payture payments for mobile apps'
 
 #  s.description      = <<-DESC
